@@ -73,7 +73,7 @@
 		<h2>Child Documents : #########</h2>
 		<div>
 			<p><span class="label label-success">Received</span> || Hospital Birth Certificate</p>
-			<p><span class="label label-warning">Error</span> || Immunization Record - Missing</p>
+			<p><span class="label label-warning">Error</span> || Immunization Record</p>
 			<p><span class="label label-success">Received</span> || Physical Exam</p>
 			<p><span class="label label-success">Received</span> || Dental Exam</p>
 			<p><span class="label label-danger">Missing</span> || Prescription Medication Information Request Letter </p>
