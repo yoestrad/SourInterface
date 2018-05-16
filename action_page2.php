@@ -61,11 +61,10 @@
 	</div>
 
 
-	<div class="container">
+		<div class="container">
 		<div>
 			<h2>Label Legend</h2>
 			<span class="label label-success">Received</span> : The document has been received with no errors.</br>
-			<span class="label label-warning">Error</span> : The document was received but has errors, please refer to the "notes"for more information.</br>
 			<span class="label label-danger">Missing</span> : The document was requested but has not been received.</br>
 		</div>
 
@@ -75,25 +74,25 @@
 		<h2>Child Documents : #########</h2>
 		<div>
 			<p><span class="label label-success">Received</span> || Hospital Birth Certificate</p>
-			<p><span class="label label-warning">Error</span> || Immunization Record</p>
+			<p><span class="label label-danger">Error</span> || Immunization Record</p>
 			<p><span class="label label-success">Received</span> || Physical Exam</p>
 			<p><span class="label label-success">Received</span> || Dental Exam</p>
 			<p><span class="label label-danger">Missing</span> || Prescription Medication Information Request Letter </p>
 			<p><span class="label label-danger">Missing</span> || Food Substitution Form</p>
-			<p><span class="label label-warning">Error</span> || Milk Substitution Form</p>
+			<p><span class="label label-success">Received</span> || Milk Substitution Form</p>
 		</div>
 		</br>
 
 		<h2>Parent 1 Documents</h2>
 		<div>
 			<p><span class="label label-success">Received</span> || 1040 Income Tax Return 2017</p>
-			<p><span class="label label-warning">Error</span> || Proof of 20+ hour work week (Monday – Friday) </p>
+			<p><span class="label label-danger">Missing</span> || Proof of 20+ hour work week (Monday – Friday) </p>
 		</div>
 		</br>
 		
 		<h2>Parent 2 Documents*</h2>
 		<div>
-			<p><span class="label label-warning">Error</span> || Proof of 20+ hour work week (Monday – Friday) </p>
+			<p><span class="label label-danger">Missing</span> || Proof of 20+ hour work week (Monday – Friday) </p>
 		</div>
 		</br>
 		
