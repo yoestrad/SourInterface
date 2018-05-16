@@ -49,25 +49,15 @@ Light Blue Background: #dfedf0
 		</div>
 	</div>
 
-	<div class="container">
+		<div class="container">
 	<h2>About Head Start</h2>
 	<p>Head Start is a comprehensive child development program designed to meet the educational, emotional, social, health, and nutritional needs of children and families.
 		 The program encompasses much more than what is generally thought of as a preschool program. The overall goal of Head Start is to bring about a greater degree of 
 		"social competence" to children and their families. Social competence refers to the everyday effectiveness in dealing with both present environment and later responsibilities 
 		in school and life. Children and families leave Head Start more confident in their own abilities and ready to succeed. 
 	</p>
+	<p>Additional services include child health, saftey, nutrition, and mental health support.(needs more info)</p>
 		<p><a class="button" href= "http://www.ochsinc.org/" target = "_blank" role="button">Learn more</a></p>
-	</div>
-
-	<div class = "container">
-	<hr class = "style8">
-	</div>
-	
-	<div class="container">
-	<h2>Services Provided</h2>
-	<p>
-		OR add to previous section Head Start provides a variety of services ----
-	</p>
 	</div>
 
 	<div class = "container">
