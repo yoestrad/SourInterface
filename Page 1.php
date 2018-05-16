@@ -27,7 +27,9 @@ Light Blue Background: #dfedf0
 		.container{
 			background-color: white;
 		}
-
+		.footer{background-color: #A7AEB1;
+			color: white;
+		}
 		.jumbotron{
 			background-color: #A7AEB1;
 			background-image: url("images/hb-pier-ca2.png");
