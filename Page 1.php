@@ -1,13 +1,15 @@
 <!
+Leaf Green: #436361
 Light Grey: #A7AEB1
 Light Blue Background: #dfedf0
 >
+
 <!DOCTYPE html>
 <html lang="en-US">
 	<head>
 	<meta charset="utf-8">
 
-	<title>Head Start Checklist</title>
+	<title>Head Start Login</title>
 	<meta name="description" content="Head Start">
 	<meta name="author" content="Sour Patch Kids 117">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -23,35 +25,72 @@ Light Blue Background: #dfedf0
 
 	<style type="text/css">
 		body {background-color: #dfedf0;}
-
+		h3 {color : white;}
+	
 		.container{
 			background-color: white;
 		}
 		.footer{background-color: #A7AEB1;
 			color: white;
 		}
+
 		.jumbotron{
-			background-color: #A7AEB1;
-			background-image: url("images/hb-pier-ca2.png");
+			background-color: white;
+			background-image: url("images/HS-Logo-Custom.png");
+			background-position: center center;
 			background-repeat: no-repeat;
+			background-size: cover;
 			/*-webkit-background-size: cover;
 			-moz-background-size: cover;
 			-o-background-size: cover;
 			background-size: cover; */
-			color: white;
+			background: contain;
+			width : 100%;
+			height : 900;
 			margin-top: 20px;
+
 			}
+
+		.button {
+   			 background-color: #436361; 
+			 -webkit-transition-duration: 0.4s; /* Safari */
+             		 transition-duration: 0.2s;
+   			 border: none;
+   			 color: white;
+    			 padding: 12px 28px;
+   			 text-align: center;
+			 border-radius: 4px;
+  			 text-decoration: none;
+   			 display: inline-block;
+   			 font-size: 16px;
+			 font-weight: bold;
+			}
+
+		.button:hover {
+			 text-decoration: none;
+   			 color: white;
+			 font-weight: bold;
+			}
+		
 	</style>
+
+
 </head>
 <body>
-	<div class="container">
-		<div class="jumbotron">
-			<h1>Head Start</h1>
-			<p>Registration Checklist</p>
+	<div class = "container">
+		<div class="jumbotron container-fluid">
+		<h3>..</h3>
+		<h3>..</h3>
+		<h3>..</h3>
 		</div>
 	</div>
 
-		<div class="container">
+	<div class = "container">
+	<hr class = "style8">
+	</div>
+
+
+	<div class="container">
 	<h2>About Head Start</h2>
 	<p>Head Start is a comprehensive child development program designed to meet the educational, emotional, social, health, and nutritional needs of children and families.
 		 The program encompasses much more than what is generally thought of as a preschool program. The overall goal of Head Start is to bring about a greater degree of 
@@ -65,6 +104,7 @@ Light Blue Background: #dfedf0
 	<div class = "container">
 	<hr class = "style8">
 	</div>
+
 
 	<div class="container">
 	  <h2>Login</h2>
@@ -89,17 +129,17 @@ Light Blue Background: #dfedf0
 		</br></br></br>
 	<script src="js/scripts.js"></script>
 
-      <footer>
+      <div class = "footer">
 
         <details>
-      	
-          2501 S. Pullman Street, Suite 100</br>
+      		Main Office</br>	
+        	  2501 S. Pullman Street, Suite 100</br>
 		  Santa Ana, CA 92705</br>
 		  Phone: (714) 241-8920</br>
 		  Fax: (949) 596-8291</br>
 	<summary>&copy; Copyright 2008-2018 by Orange County, Head Start Inc.</summary>
         </details>
-      </footer>
+	<!/footer>
 	</div>
 
 </body>
