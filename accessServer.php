@@ -1,7 +1,7 @@
 //connecting to database
 
 <?php
-$serverName = "serverName//sqlexpress";
+$serverName = "serverName//sqlexpress"; //information to be replaced with server name
 $connectionInfo = array( "Database"=>"dbName". "UID"=>"username","PWD"=>"password"); //information to be replaced with the actual username and password for server
 $conn = sqlsrv_connect($serverName, $connectionInfo);
 
