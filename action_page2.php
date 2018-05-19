@@ -1,4 +1,10 @@
-﻿<!DOCTYPE html>
+<!
+Leaf Green: #436361
+Light Grey: #A7AEB1
+Light Blue Background: #dfedf0
+>
+
+<!DOCTYPE html>
 <html lang="en-US">
 	<head>
 	<meta charset="utf-8">
@@ -19,33 +25,75 @@
 
 	<style type="text/css">
 		body {background-color: #dfedf0;}
-
+		h3 {color : white;}
+	
 		.container{
 			background-color: white;
 		}
 		.footer{background-color: #A7AEB1;
 			color: white;
 		}
+
 		.jumbotron{
-			background-color: #A7AEB1;
-			background-image: url("images/hb-pier-ca2.png");
+			background-color: white;
+			background-image: url("images/HS-Logo-Custom.png");
+			background-position: center center;
 			background-repeat: no-repeat;
+			background-size: cover;
 			/*-webkit-background-size: cover;
 			-moz-background-size: cover;
 			-o-background-size: cover;
 			background-size: cover; */
-			color: white;
+			background: contain;
+			width : 100%;
+			height : 900; 
 			margin-top: 20px;
+
 			}
+
+		.button {
+   			 background-color: #436361; 
+			 -webkit-transition-duration: 0.4s; /* Safari */
+             		 transition-duration: 0.2s;
+   			 border: none;
+   			 color: white;
+    			 padding: 12px 28px;
+   			 text-align: center;
+			 border-radius: 4px;
+  			 text-decoration: none;
+   			 display: inline-block;
+   			 font-size: 16px;
+			 font-weight: bold;
+			}
+
+		.button:hover {
+			 text-decoration: none;
+   			 color: white;
+			 font-weight: bold;
+			}
+
+		a:link {color : #436361;
+			text-decoration : none}
+
+		a:hover {color : #436361;
+			font-weight : bold;
+			text-decoration : none}
 	</style>
+
 </head>
 <body>
-	<div class="container">
-		<div class="jumbotron">
-			<h1>Head Start</h1>
-			<p>Registration Checklist</p>
+	<div class = "container">
+		<div class="jumbotron container-fluid">
+		<h3>..</h3>
+		<h3>..</h3>
+		<h3>..</h3>
 		</div>
 	</div>
+
+	<div class = "container">
+	<hr class = "style8">
+	</div>
+
 
 	<div class = "container">
 	<h2>The Head Start Process</h2>
@@ -60,8 +108,11 @@
 		locator service. -insert link-</p>
 	</div>
 
+	<div class = "container">
+	<hr class = "style8">
+	</div>
 
-		<div class="container">
+	<div class="container">
 		<div>
 			<h2>Label Legend</h2>
 			<span class="label label-success">Received</span> : The document has been received with no errors.</br>
@@ -71,11 +122,11 @@
 		</br>
 
 		</br>
-		<h2>Child Documents : #########</h2>
+		<h2>Child Records : #########</h2>
 		<div>
 			<p><span class="label label-success">Received</span> || Hospital Birth Certificate</p>
 			<p><span class="label label-danger">Error</span> || Immunization Record</p>
-			<p><span class="label label-success">Received</span> || Physical Exam</p>
+			<p><span class="label label-success">Received</span> || Physical Exam || <a href="/documents/Physical%20Exam%20Form.pdf" download>English</a></p>
 			<p><span class="label label-success">Received</span> || Dental Exam</p>
 			<p><span class="label label-danger">Missing</span> || Prescription Medication Information Request Letter </p>
 			<p><span class="label label-danger">Missing</span> || Food Substitution Form</p>
@@ -83,14 +134,14 @@
 		</div>
 		</br>
 
-		<h2>Parent 1 Documents</h2>
+		<h2>Parent 1 Records</h2>
 		<div>
 			<p><span class="label label-success">Received</span> || 1040 Income Tax Return 2017</p>
 			<p><span class="label label-danger">Missing</span> || Proof of 20+ hour work week (Monday – Friday) </p>
 		</div>
 		</br>
 		
-		<h2>Parent 2 Documents*</h2>
+		<h2>Parent 2 Records*</h2>
 		<div>
 			<p><span class="label label-danger">Missing</span> || Proof of 20+ hour work week (Monday – Friday) </p>
 		</div>
@@ -99,15 +150,16 @@
 		<script src="js/scripts.js"></script>
 		<p>*Note: Please ignore if a single parent household.</p>
 
-		<footer>
+		<div class = "footer">
 		<details>
+			Main Office</br>
 			2501 S. Pullman Street, Suite 100</br>
 			Santa Ana, CA 92705</br>
 			Phone: (714) 241-8920</br>
 			Fax: (949) 596-8291</br>
 			<summary>&copy; Copyright 2008-2018 by Orange County, Head Start Inc.</summary>
+	
 		</details>
-	</footer>
 	</div>
 
 
